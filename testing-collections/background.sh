@@ -1,7 +1,4 @@
 #!/bin/bash
 
-touch /tmp/background-started
-pip uninstall ansible
-pip uninstall ansible-base
+apt-get -y remove ansible ansible-base
 touch /tmp/background-finished
-
